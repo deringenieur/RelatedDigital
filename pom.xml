@@ -3,12 +3,49 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>TestAutomation</groupId>
-	<artifactId>HepsiBuradaCaseStudy</artifactId>
+	<artifactId>RelatedDigitalCaseStudy</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<dependencies>
 
 
+		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi // Apache POI -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.17</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.4.0</version>
+			<scope>test</scope>
+		</dependency>
+
+
+		<dependency>
+			<groupId>org.apache.maven.resolver</groupId>
+			<artifactId>maven-resolver-util</artifactId>
+			<version>1.7.1</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.10.0</version>
+		</dependency>
+
+
+
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.17</version>
+		</dependency>
 
 
 		<dependency>
@@ -29,6 +66,8 @@
 			<artifactId>selenium-java</artifactId>
 			<version>4.0.0-alpha-5</version>
 		</dependency>
+
+
 
 
 
